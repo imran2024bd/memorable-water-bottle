@@ -1,5 +1,8 @@
 
 import './App.css'
+import Bottles from './components/Bottles/Bottles'
+import Bottle from './components/bottle/Bottle'
+import Header from './components/header/Header'
 
 function App() {
   
@@ -7,7 +10,9 @@ function App() {
   return (
     <>
      
-      <h1>Vite + React</h1>
+      <Header></Header>
+      <Bottles></Bottles>
+      <Bottle></Bottle>
       
     </>
   )
