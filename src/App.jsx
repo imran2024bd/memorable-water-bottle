@@ -1,7 +1,7 @@
 
 import './App.css'
+import Bottle from './components/Bottle/Bottle'
 import Bottles from './components/Bottles/Bottles'
-import Bottle from './components/bottle/Bottle'
 import Header from './components/header/Header'
 
 function App() {
@@ -12,7 +12,9 @@ function App() {
      
       <Header></Header>
       <Bottles></Bottles>
-      <Bottle></Bottle>
+      {/* <Bottle></Bottle> */}
+      
+      
       
     </>
   )
