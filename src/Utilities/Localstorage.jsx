@@ -14,8 +14,8 @@ const saveCartToLS = cart => {
 const addToLS = id => {
     const cart = getStoredCart();
     cart.push(id);
-    // save to lacal storage
+    // save to local storage
     saveCartToLS(cart);
 }
 
-export {addToLS}
+export {addToLS , getStoredCart}
